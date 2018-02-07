@@ -34,7 +34,7 @@
     
     <Resource name="jdbc/dataSourcePool" auth="Container" type="javax.sql.DataSource"
                maxActive="25" maxIdle="15" maxWait="10000" minIdle="1"
-               username="RM78271" password="250292"  driverClassName="oracle.jdbc.driver.OracleDriver"
+               username="RM78271" password="password"  driverClassName="oracle.jdbc.driver.OracleDriver"
                url="jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL"/>    
 
 </Context>
